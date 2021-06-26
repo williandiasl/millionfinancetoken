@@ -363,6 +363,19 @@ header.fixed {
 .fixed nav ul li.nav-btn a:hover, .light nav ul li.nav-btn a:hover {
 	color: #1d1d1d
 }
+
+@media only screen and (max-width: 767px){
+	.none_mobile  {
+		display: none;    
+	}
+	}
+
+	@media only screen and (min-width: 767px){
+		.none_mobile_max  {
+			display: none;    
+		}
+		}
+
 /*===================================*
 03. BANNER SECTION
 *===================================*/
