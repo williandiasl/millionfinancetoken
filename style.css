@@ -352,7 +352,7 @@ header.fixed {
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 }
 .fixed nav ul li a, .light nav ul li a {
-	color: #f6aa35;
+	color: #000;
 }
 .fixed nav ul li a:hover,
 .fixed nav ul li.active a,
