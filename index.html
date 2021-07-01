@@ -54,6 +54,13 @@
         padding-bottom: 10px;
         margin-top: 10px;
     }
+
+    .skiptranslate select {
+        padding: 0px;
+    margin: 0px;
+    height: 26px;
+}
+    }
     </style>
     
 </head>
@@ -63,6 +70,21 @@
         <!--Header Start -->
         <header>
             <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div id="google_translate_element" class="boxTradutor"></div>
+                    </div>
+
+                </div>
+
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                      new google.translate.TranslateElement({layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+                    }
+                    </script>
+                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
                 <div class="row">
                     <div class="col-sm-6 col-md-4 logo">
                         <a href="#" title="MFT - Million Finance Token">
@@ -180,6 +202,12 @@
                              <div class="col-sm-12 box-queuma">
 
                                 <ul class="ul_elementor-list">
+
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                        <i aria-hidden="true" class="far fa-check-circle"></i>						</span>
+                                    <span class="elementor-icon-list-text">15% Total Fee</span>
+                                </li>
                                     <li class="elementor-icon-list-item">
                                                     <span class="elementor-icon-list-icon">
                                     <i aria-hidden="true" class="far fa-check-circle"></i>						</span>
@@ -190,6 +218,17 @@
                                     <i aria-hidden="true" class="far fa-check-circle"></i>						</span>
                                                 <span class="elementor-icon-list-text">5% De queima para liquidez</span>
                                             </li>
+
+                                            <li class="elementor-icon-list-item">
+                                                <span class="elementor-icon-list-icon">
+                                <i aria-hidden="true" class="far fa-check-circle"></i>						</span>
+                                            <span class="elementor-icon-list-text">5% De queima automática</span>
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                            <span class="elementor-icon-list-icon">
+                            <i aria-hidden="true" class="far fa-check-circle"></i>						</span>
+                                        <span class="elementor-icon-list-text">5% De market Wallet</span>
+                                    </li>
                                        
     
                                 </ul>
