@@ -3677,16 +3677,16 @@ ul.allocation-list li:nth-child(7):before{background:#303030;}
 .mercury-roadmap .roadmap-item .roadmap-text{
 	float:left;
 	width:100%;
-	padding:320px 10px 0px;
+	padding:200px 10px 0px;
 }
 .mercury-roadmap .roadmap-text p{
 	margin-bottom:0; 
 }
 .mercury-roadmap .roadmap-item.even .roadmap-text{
-	padding:0px 10px 320px;
+	padding:0px 10px 200px;
 }
 .mercury-roadmap .roadmap-item-text h4{
-	font-size: 18px;
+	font-size: 14px;
 	color: #000;
 	font-weight: 600;
 	max-width:150px;
