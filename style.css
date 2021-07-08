@@ -82,23 +82,23 @@ textarea.form-control{
 .btn {
 	color: #1d1d1d;
 	padding: 14px 30px;
-	background: #fbbd18;
+	background: #e5c256;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 .btn:hover {
-	background: #f0931e;
+	background: #eed96e;
 	color: #1d1d1d
 }
 .btn2 {
-	border: 1px solid #fbbd18;
+	border: 1px solid #e5c256;
 	background: transparent;
 	color: #fff;
 }
 .btn2:hover {
-	background: #fbbd18;
+	background: #eed96e;
 	color: #fff;
 }
 .btn3 {
